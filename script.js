@@ -24,8 +24,6 @@ const lines = [
 
 startGame()
 
-console.log('eu')
-
 function startGame() {
     xTurn = true
     board.classList.add('x')
