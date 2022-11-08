@@ -9,8 +9,14 @@
 
 :root {
     --background: #181818;
-    --cell-size: 188px;
+    --cell-size: 7rem;
     --mark-size: calc(var(--cell-size) * 0.9)
+}
+
+@media (min-width: 800px) {
+    :root {
+        --cell-size: 10rem;
+    }
 }
 
 body {
@@ -28,6 +34,7 @@ main.end {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
+
 
 .board {
     display: grid;
